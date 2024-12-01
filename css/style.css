@@ -1,0 +1,28 @@
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./footer.css);
+@import url(./product.css);
+:root {
+  --orange: #ff7235;
+  --grey: #bdbdbd;
+  --black: #292830;
+  --bg_color_icon:#E2598B0D;
+}
+body {
+  font-family: Hind Siliguri, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 1440px;
+  height: 100%;
+  gap: 100px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}

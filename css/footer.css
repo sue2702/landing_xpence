@@ -1,0 +1,126 @@
+/* footer */
+footer {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 1150px;
+    height: 530px;
+    color: var(--black);
+    
+  }
+  
+  .footer_top {
+    display: flex;
+    gap: 100px;
+    width: 1150px;
+    height: 277px;
+    
+  }
+  li {
+    width: 154px;
+    height: 29px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.62;
+  }
+  li a{
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  li a:hover{
+    color: var(--orange);
+  }
+  .footer_top h2 {
+    width: 68px;
+    height: 39px;
+  
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.62;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    color: var(--black);
+  }
+  .footer_bottom_links a {
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: var(--black);
+  }
+  .footer_bottom.copyright {
+    text-wrap: nowrap;
+  }
+  
+  .footer_bottom {
+    display: flex;
+    gap: 280px;
+    width: 1150px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.62;
+  }
+  .footer_bottom_links {
+    gap: 20px;
+    display: flex;
+    margin-left: 13px;
+  }
+  .fb_tw_in {
+    margin-left: 90px;
+  }
+  .email_info {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  .email_info p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.34px;
+    line-height: 1.62;
+    color: var(--grey);
+    text-wrap: nowrap;
+  }
+  .email_info span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.62;
+    color: var(--grey);
+  }
+  .input_btn {
+    width: 360px;
+    height: 62px;
+    border-radius: 8px;
+    border: 1px solid var(--black);
+    text-align: center;
+    display: flex;
+  }
+  
+  .input_btn input {
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.62;
+    width: 240px;
+    margin-left: 5px;
+  }
+  .input_btn a {
+    text-decoration: none;
+    width: 102px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--orange);
+    color: white;
+    padding:11px;
+    margin: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.62;
+  
+  
+  
+  }
+  
+  /* footer#### */
